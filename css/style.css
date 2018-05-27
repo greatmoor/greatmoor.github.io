@@ -1,1 +1,18 @@
-
+body{
+	background-color:silver;
+	border:1px solid black;
+	margin:20px 40px 20px 40px;
+	padding: 10px;
+	}
+#para1{
+	text-align:justify;
+	}
+#para2{
+	text-align:justify;
+	}
+.edu table{
+	border:1px solid black;
+	}
+.edu th{
+	border-bottom: 1px solid black;
+	}
