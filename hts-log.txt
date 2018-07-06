@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 06 Jul 2018 23:25:39 at http://localhost/mysite +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost/mysite -O1 "G:\test2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:27:47	Error: 	"Bad Request" (400) at link localhost/mysite/wp-admin/admin-ajax.php (from localhost/mysite/)
+23:29:26	Warning: 	File not parsed, looks like binary: localhost/mysite/wp-content/plugins/revslider/public/assets/css/openhand.cur
+23:29:26	Warning: 	File not parsed, looks like binary: localhost/mysite/wp-content/plugins/revslider/public/assets/css/closedhand.cur
+23:29:26	Warning: 	Moved Permanently for localhost/mysite/?p=13
+23:29:26	Warning: 	File has moved from localhost/mysite/?p=13 to http://localhost/mysite/the-house/
+23:29:26	Warning: 	Moved Permanently for localhost/mysite/?p=15
+23:29:26	Warning: 	File has moved from localhost/mysite/?p=15 to http://localhost/mysite/rooms/
+23:29:26	Warning: 	Moved Permanently for localhost/mysite/?p=68
+23:29:26	Warning: 	File has moved from localhost/mysite/?p=68 to http://localhost/mysite/room-details/
+23:29:26	Warning: 	Moved Permanently for localhost/mysite/?p=17
+23:29:26	Warning: 	File has moved from localhost/mysite/?p=17 to http://localhost/mysite/gallery/
+23:29:36	Warning: 	Moved Permanently for localhost/mysite/?p=19
+23:29:36	Warning: 	File has moved from localhost/mysite/?p=19 to http://localhost/mysite/booking/
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 59 seconds : 196 links scanned, 189 files written (6187574 bytes overall) [6254596 bytes received at 26169 bytes/sec], 4.1 requests per connection
+(1 errors, 12 warnings, 0 messages)
