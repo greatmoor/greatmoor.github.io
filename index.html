@@ -1,29 +1,723 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="xmlrpc.php">
+    <link rel="shortcut icon" href="img/Icon.png">
+    <title>GREATMOOR- The Ultimate Web Services &#8211; GREATMOOR</title>
+    <meta name='robots' content='noindex,follow' />
+    <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+    <link rel='dns-prefetch' href='http://s.w.org/' />
+    <link rel="alternate" type="application/rss+xml" title="GREATMOOR- The Ultimate Web Services &raquo; Feed" href="feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="GREATMOOR- The Ultimate Web Services &raquo; Comments Feed" href="comments/feed/index.html" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "http:\/\/localhost\/greatmoor\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"
+            }
+        };
+        ! function(a, b, c) {
+            function d(a, b) {
+                var c = String.fromCharCode;
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
+                var d = k.toDataURL();
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0);
+                var e = k.toDataURL();
+                return d === e
+            }
+
+            function e(a) {
+                var b;
+                if (!l || !l.fillText) return !1;
+                switch (l.textBaseline = "top", l.font = "600 32px Arial", a) {
+                    case "flag":
+                        return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b);
+                    case "emoji":
+                        return b = d([55357, 56692, 8205, 9792, 65039], [55357, 56692, 8203, 9792, 65039]), !b
+                }
+                return !1
+            }
+
+            function f(a) {
+                var c = b.createElement("script");
+                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+            var g, h, i, j, k = b.createElement("canvas"),
+                l = k.getContext && k.getContext("2d");
+            for (j = Array("flag", "emoji"), c.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
+            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+                c.DOMReady = !0
+            }, c.supports.everything || (h = function() {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function() {
+                "complete" === b.readyState && c.readyCallback()
+            })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/stylesaead.css?ver=5.0.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='modula_stylesheet-css' href='wp-content/plugins/modula-best-grid-gallery/scripts/modulae7f0.css?ver=1.3.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='effects_stylesheet-css' href='wp-content/plugins/modula-best-grid-gallery/scripts/effectse7f0.css?ver=1.3.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-min-css-css' href='wp-content/themes/pixova-lite/layout/css/animate.min37cb.css?ver=4.9.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-min-css-css' href='wp-content/themes/pixova-lite/layout/css/font-awesome.min37cb.css?ver=4.9.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='ga-fonts-css' href='http://fonts.googleapis.com/css?family=Poppins%3A600%7CRoboto%3A400%2C500%2C700%2C400italic%2C700italic%7CInconsolata%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;ver=4.9.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-min-css-css' href='wp-content/themes/pixova-lite/layout/css/bootstrap.min37cb.css?ver=4.9.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='owlCarousel-main-css-css' href='wp-content/themes/pixova-lite/layout/css/owl.carousel37cb.css?ver=4.9.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='owlCarousel-theme-css-css' href='wp-content/themes/pixova-lite/layout/css/owl.theme37cb.css?ver=4.9.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='pixova-lite-min-css-css' href='wp-content/themes/pixova-lite/layout/css/style.min37cb.css?ver=4.9.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='pixova-lite-min-style-css' href='wp-content/themes/pixova-lite/style37cb.css?ver=4.9.7' type='text/css' media='all' />
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/data-style.css">
+    <style id='pixova-lite-min-style-inline-css' type='text/css'>
+        .entry-content h1 {
+            font-family: Roboto;
+            font-size: 36px;
+            line-height: 40px;
+        }
+
+        /* Accent Color */
+
+        h1.intro-cta-title:after,
+        .single .intro-title:after,
+        .blog-intro .intro-title:after,
+        .light-section-heading:after,
+        .pixova-pricing-table .featured .pixova-pricing-header,
+        .pixova-button span.pixova-button-inner,
+        .pixova-callout,
+        #wp-calendar caption,
+        input#submit,
+        .wp-caption .wp-caption-text,
+        div#buy-now,
+        #buy-now .container-fluid,
+        body .btn-cta-light,
+        body .btn-cta-intro {
+            background-color: #18c721;
+        }
+
+        .pixova-comments a,
+        h1.intro-cta-title,
+        .btn.btn-cta-intro-outline.focus,
+        .pixova-date,
+        .pixova-pie-chart-custom-icon i,
+        .pixova-team-member-description,
+        #cancel-comment-reply-link,
+        .about-text.testimonial span,
+        .error-404 .page-title,
+        .no-results .page-title,
+        .search-results .page-title,
+        .pixova-lite-breadcrumbs a,
+        .footer-heart-icon,
+        .big-testimonial .media-heading,
+        .pixova-person-name,
+        .btn.focus,
+        .entry-meta a:hover {
+            color: #18c721;
+        }
+
+        ::selection {
+            background: #18c721;
+        }
+
+        ::-moz-selection {
+            background: #18c721;
+        }
+
+        .btn.btn-cta-intro-outline.focus,
+        .pixova-button span.pixova-button-inner,
+
+        .about-text.testimonial,
+        blockquote,
+        body .btn-cta-light {
+            border-color: #18c721;
+        }
+
+        #awesome-loader .loader-holder svg path.ip-loader-circle {
+            stroke: #18c721;
+        }
+
+        /* Heading Color */
+
+        .light-section-heading,
+        .section-sub-heading,
+        .pixova-blogpost-title,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #222533;
+        }
+
+        /* Text Color */
+
+        .contact-info-details,
+        .contact-info-details-phone,
+        .contact-info-details-email,
+        .pixova-blog-posts p,
+        .blog .entry-content p,
+        .widget_categories a,
+        .widget_recent_entries a,
+        .widget_pages a,
+        .comment-content p,
+        .entry-meta,
+        .page-numbers a,
+        .page-numbers span,
+        .nav-links .page-numbers,
+        .widget_archive a,
+        .recentcomments a,
+        .widget_meta a,
+        .entry-content p,
+        .entry-content-tags li,
+        .entry-content-tags li a,
+        body {
+            color: #777777;
+        }
+
+        /* Hover Color */
+
+        .btn.btn-cta-intro-outline:focus,
+        .btn.btn-cta-intro-outline:hover,
+        body a:focus,
+        #footer .menu li a:hover,
+        .pixova_lite_widget_social_media li a:hover,
+        .pixova-pricing-table .pixova-pricing-content ul li.checked:before,
+        .mobile a:focus,
+        .mobile-nav a:hover,
+        a:hover,
+        blockquote:before,
+        #footer .widget a:hover,
+        #footer .footer-copyright a:hover,
+        #team .pixova-team-member-icon a:hover,
+        .logo:hover,
+        .main-navigation a:hover,
+        .btn:focus,
+        .btn:hover,
+        .intro-tagline a:hover,
+        .recentcomments a:hover,
+        .widget_archive a:hover,
+        .widget_categories a:hover,
+        .widget_meta a:hover,
+        .widget_pages a:hover,
+        .widget_recent_entries a:hover {
+            color: #a18514;
+        }
+
+        body .btn-cta-intro:hover,
+        .footer-social-icon:hover,
+        .pixova-button:active,
+        .pixova-button:hover,
+        .comment-reply-link:focus,
+        .comment-reply-link:hover,
+        .tagcloud a:focus,
+        .tagcloud a:hover,
+        #cancel-comment-reply-link:before,
+        .footer-photos a:before,
+        body .btn-cta-dark:hover,
+        body .btn-cta-light:hover {
+            background-color: #a18514;
+        }
+
+        .tagcloud a:hover,
+        .comment-reply-link:hover,
+        .btn.btn-cta-intro-outline:focus,
+        .btn.btn-cta-intro-outline:hover,
+        .footer-social-icon:hover,
+        .wpcf7-form-control-wrap input:focus,
+        .wpcf7-form-control-wrap textarea:focus,
+        .pirate_forms_wrap input:focus,
+        .pirate_forms_wrap textarea:focus,
+        .comment-reply-link:focus,
+        .tagcloud a:focus,
+        #respond input:focus,
+        #respond textarea:focus,
+        body .btn-cta-dark:hover,
+        body .btn-cta-light:hover {
+            border-color: #a18514;
+        }
+
+        /* Footer Background Color */
+
+        #footer .footer-copyright-container {
+            background-color: #1f1f1f;
+        }
+
+        /* Footer Widget Background Color */
+
+        #footer {
+            background-color: #313233;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />
+
+    <link rel='stylesheet' id='epsilon-google-fonts-css' href='http://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900&amp;subset=latin-ext&amp;ver=4.9.7' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='wp-content/plugins/modula-best-grid-gallery/scripts/jquery.modula37cb.js?ver=4.9.7'></script>
+    <link rel='https://api.w.org/' href='wp-json/index.html' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.9.7" />
+    <link rel="canonical" href="index.html" />
+    <link rel='shortlink' href='index.html' />
+    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed1bf5.json?url=http%3A%2F%2Flocalhost%2Fgreatmoor%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed3598?url=http%3A%2F%2Flocalhost%2Fgreatmoor%2F&amp;format=xml" />
+    <style type="text/css"></style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
 </head>
 
-<body>
+<body class="home page-template-default page page-id-9 has-header-image">
+    <!-- New Site Preloader -->
 
-hello
-    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="js/vendor/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <div id="awesome-loader" class="loading">
+        <div class="logo-holder">
+            <a class="logo" href="http://localhost/greatmoor">GREATMOOR- The Ultimate Web Services</a> </div>
+        <div class="loader-holder">
+            <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+					<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+					<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+				</svg>
+        </div>
+    </div>
+    <!-- END Site Preloader -->
+    <div id="container" class="hfeed">
+        <!-- Header -->
+        <header id="header-wrap">
+            <div class="container header clearfix">
+                <div class="row">
+                    <div class="col-md-12"><a class="logo" href="http://localhost/greatmoor">GREATMOOR- The Ultimate Web Services</a>
+                        <!-- menu icon --><a id="nav-expander" class="pull-right" href="#"><i class="fa fa-bars fa-lg white"></i></a>
+                        <!-- /menu icon -->
+                        <!-- main navigation -->
+                        <nav class="main-navigation logo-image">
+                            <ul id="menu-pixova-lite-main-menu-container" class="pixova-default-menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#about" title="About">About</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#works" title="Recent Works">Sample Works</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#contact" title="Contact">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                        <!-- /main-navigation -->
+                    </div>
+                </div>
+            </div>
+            <!-- main navigation mobile -->
+            <div class="offset-canvas-mobile">
+                <nav class="mobile-nav-holder"><a href="#" class="close-btn mobile-nav-close-btn"><span class="fa fa-close"></span></a>
+                    <div class="mobile-nav">
+                        <div class="menu">
+                            <ul>
+                                <li class="page_item page-item-9 current_page_item"><a href="index.html">Homepage</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.mobile-nav-->
+                </nav>
+                <!--/.mobile-nav-holder-->
+            </div>
+            <!--ofset-canvas-mobile-->
+            <!-- /main navigation mobile -->
+        </header>
+        <!--/Header-->
+        <section id="intro" class="home-intro">
+            <div class="parallax-bg-container"></div>
+            <!--/.parallax-bg-container-->
+            <div id="wp-custom-header" class="wp-custom-header"><img src="wp-content/themes/pixova-lite/layout/images/header-bg.jpg" width="1920" height="1080" alt="GREATMOOR- The Ultimate Web Services" /></div>
+            <div class="container" id="intro-holder">
+                <div class="intro-content parallax-text-fade">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <h1 class="intro-cta-title">GREATMOOR- THE ULTIMATE WEB SERVICES</h1>
+                                <h1 class="intro-title">Look Professional Right From The Start</h1>
+                                <p class="intro-tagline">Your website is the first impression you get to make to your customers, making sure it is functional and flawless. After successfully completing hundreds of web design projects, we are proud of our reputation for client service and success. We are devoted to creating a website uniquely suited to your companies image. See our success stories on our portfolio.</p><a class="btn btn-cta btn-cta-intro-outline" href="#about"><span>LEARN MORE</span></a><a class="btn btn-cta btn-cta-intro" href="#contact"><span>CONTACT US</span></a></div>
+                            <!--/.text-center-->
+                        </div>
+                        <!--/.col-md-12-->
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.intro-content.parallax-text-fade-->
+            </div>
+            <!--/.container-->
+        </section>
+        <!--/#intro.home-intro-->
+        <section class="has-padding text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-heading text-center">
+                        <h2 class="light-section-heading">We Build Solutions for Your Everyday Problems</h2>
+                        <div class="section-sub-heading">This Is What We Do In a Nutshell</div>
+                    </div>
+
+                    <!-- Start WOWSlider.com BODY section -->
+                    <!-- add to the <body> of your page -->
+                    <div id="wowslider-container1">
+                        <div class="ws_images">
+                            <ul>
+                                <li><img src="img/slide1.jpg" alt="slide1" title="slide1" id="wows1_0" /></li>
+                                <li><img src="img/slide2.jpg" alt="slide2" title="slide2" id="wows1_1" /></li>
+                                <li><img src="img/slide3.jpg" alt="slide3" title="slide3" id="wows1_2" /></li>
+                                <li><img src="img/slide4.jpg" alt="slide4" title="slide4" id="wows1_3" /></li>
+                            </ul>
+                        </div>
+                        <div class="ws_bullets">
+                            <div>
+                                <a href="#" title="slide1"><span><img src="img/tooltips/slide1.jpg" alt="slide1"/>1</span></a>
+                                <a href="#" title="slide2"><span><img src="img/tooltips/slide2.jpg" alt="slide2"/>2</span></a>
+                                <a href="#" title="slide3"><span><img src="img/tooltips/slide3.jpg" alt="slide3"/>3</span></a>
+                                <a href="#" title="slide4"><span><img src="img/tooltips/slide4.jpg" alt="slide4"/>4</span></a>
+                            </div>
+                        </div>
+                        <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.8</div>
+                        <div class="ws_shadow"></div>
+                    </div>
+                    <script type="text/javascript" src="js/wowslider.js"></script>
+                    <script type="text/javascript" src="js/script.js"></script>
+                    <!-- End WOWSlider.com BODY section -->
+                    <!--/.text-center-->
+                </div>
+                <!--/.row-->
+                <div class="row">
+                    <blockquote>
+                        <p>The Reason Behind High Customer Satisfaction Throughout the Journey is Our Skills. No Matter How Small the Project is, Quality Assurance &amp; Your Satisfaction is Our Ultimate Goal</p>
+                    </blockquote>
+                    <div class="text-center section-heading">
+                        <h2 class="light-section-heading">Our Skills</h2>
+                    </div>
+                    <div class="pixova_lite_pie_chart_wrapper col-xs-12">
+                        <div class="pixova_lite_chart_1 col-md-3 col-sm-6 col-xs-12">
+                            <div class="pixova-chart" data-trackColor="#eeeeee" data-barColor="#32c26c" data-lineWidth="10" data-percent="94">
+                                <div class="pixova-pie-chart-custom-text">94%</div>
+                                <!--/.pixova-pie-chart-custom-text-->
+                            </div>
+                            <!--/.pixova-chart-->
+                            <h4 class="pixova-heading pixova-heading-single-line text-center">Web design</h4>
+                            <!--/.pixova-heading-->
+                        </div>
+                        <!--/.col-md-->
+                        <div class="pixova_lite_chart_2 col-md-3 col-sm-6 col-xs-12">
+                            <div class="pixova-chart" data-trackColor="#eeeeee" data-barColor="#32c26c" data-lineWidth="10" data-percent="92">
+                                <div class="pixova-pie-chart-custom-text">92%</div>
+                                <!--/.pixova-pie-chart-custom-text-->
+                            </div>
+                            <!--/.pixova-chart-->
+                            <h4 class="pixova-heading pixova-heading-single-line text-center">E-Commerce Site Development</h4>
+                            <!--/.pixova-heading-->
+                        </div>
+                        <!--/.col-md-->
+                        <div class="pixova_lite_chart_3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="pixova-chart" data-trackColor="#eeeeee" data-barColor="#32c26c" data-lineWidth="10" data-percent="98">
+                                <div class="pixova-pie-chart-custom-text">98%</div>
+                                <!--/.pixova-pie-chart-custom-text-->
+                            </div>
+                            <!--/.pixova-chart-->
+                            <h4 class="pixova-heading pixova-heading-single-line text-center">WordPress Development</h4>
+                            <!--/.pixova-heading-->
+                        </div>
+                        <!--/.col-md-->
+                        <div class="pixova_lite_chart_4 col-md-3 col-sm-6 col-xs-12">
+                            <div class="pixova-chart" data-trackColor="#eeeeee" data-barColor="#32c26c" data-lineWidth="10" data-percent="85">
+                                <div class="pixova-pie-chart-custom-text">85%</div>
+                                <!--/.pixova-pie-chart-custom-text-->
+                            </div>
+                            <!--/.pixova-chart-->
+                            <h4 class="pixova-heading pixova-heading-single-line text-center">Search Engine Optimization</h4>
+                            <!--/.pixova-heading-->
+                        </div>
+                        <!--/.col-md-->
+                    </div>
+                    <!--/.pixova-pie-chart-wrapper-->
+                    <div class="clearfix"></div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <!--/section-->
+        <section id="works" class="has-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center section-heading">
+                        <h2 class="light-section-heading">Sample Works</h2>
+                        <div class="section-sub-heading">It's The Show Time!</div>
+                    </div>
+                    <!--/.text-center-->
+                </div>
+                <!--/.row-->
+                <center>
+                    <div id='coin-slider'>
+                        <a href="#" target="_blank">
+    <img src='img/Samples/img1.jpg' >
+    <span>
+      Coming Soon 01...SAKIB
+    </span>
+  </a>
+                        <a href="#">
+    <img src='img/Samples/img2.jpg' >
+    <span>
+      Coming Soon 02...SAKIB
+    </span>
+  </a>
+                        <a href="#" target="_blank">
+    <img src='img/Samples/img3.jpg' >
+    <span>
+      Coming Soon 03...SAKIB
+    </span>
+  </a>
+                    </div>
+                </center>
+
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#coin-slider').coinslider({
+                            width: 600, // width of slider panel
+                            height: 400, // height of slider panel
+                            spw: 7, // squares per width
+                            sph: 5, // squares per height
+                            delay: 2500, // delay between images in ms
+                            sDelay: 30, // delay beetwen squares in ms
+                            opacity: 0.7, // opacity of title and navigation
+                            titleSpeed: 600, // speed of title appereance in ms
+                            effect: 'swirl', // random, swirl, rain, straight
+                            navigation: true, // prev next and buttons
+                            links: true, // show images as links 
+                            hoverPause: true // pause on hover
+                        });
+                    });
+                </script>
+                <div class="text-center section-heading">
+                    <h2 class="light-section-heading">But.. Why Us?</h2>
+                    <div class="section-sub-heading">Let's See!</div>
+                </div>
+
+                <section class="statistics anim" data-background="linear-gradient(#3768A3, #32C26C)" data-title-color="#fafafa" data-icons-color="#ddd" data-numbers-color="palegoldenrod" data-count-titles="#ddd">
+                    <div class="sec-title">
+                        <h2>We Have More Than:</h2>
+                    </div>
+                    <div class="statistics-inner">
+                        <div class="stat" data-count="450">
+                            <span class="fab fa-wordpress fa-4x stat-icon"></span>
+                            <span class="number"></span>
+                            <span class="count-title">WordPress Templates</span>
+                        </div>
+                        <!-- .stat -->
+                        <div class="stat" data-count="1340">
+                            <span class="far fa-clock fa-4x stat-icon"></span>
+                            <span class="number"></span>
+                            <span class="count-title">Hours Working</span>
+                        </div>
+                        <!-- .stat -->
+                        <div class="stat" data-count="127">
+                            <span class="far fa-smile fa-4x stat-icon"></span>
+                            <span class="number"></span>
+                            <span class="count-title">Satisfied Customer</span>
+                        </div>
+                        <!-- .stat -->
+                        <div class="stat" data-count="23000">
+                            <span class="far fa-file-code fa-4x stat-icon"></span>
+                            <span class="number"></span>
+                            <span class="count-title">Lines of Coding</span>
+                        </div>
+                        <div class="stat" data-count="120">
+                            <span class="fas fa-globe-americas fa-4x stat-icon"></span>
+                            <span class="number"></span>
+                            <span class="count-title">Website Designed</span>
+                        </div>
+                        <!-- .stat -->
+                    </div>
+                    <!-- .statistics-inner -->
+                </section>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <!--/#works.has-padding-->
+        <section class="has-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center section-heading">
+                        <h2 class="light-section-heading">Contact Us</h2>
+                        <!--/.section-heading.light-section-heading-->
+                        <div class="section-sub-heading">And We'll Reply In No Time.</div>
+                    </div>
+                    <!--/.text-center-->
+                </div>
+                <!--/.row-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="pixova-contact-info">
+                            <h3 class="address">Address</h3>
+                            <p class="contact-info-details address"><span>M. M. SAKIB ULLAH<br>
+15/4 Hatkhola Road, Dhaka, Bangladesh</span></p>
+                            <h3 class="support">Customer Support</h3>
+                            <p class="contact-info-details-phone">Phone: <span>+8801621324925</span></p>
+                            <p class="contact-info-details-email">Email: <span>greatmoor@gmail.com</span></p>
+                        </div>
+                        <!--/.contact-info-details-->
+                    </div>
+                    <!--/.pixova-contact-info-->
+                    <center> <a id="foxyform_embed_link_931696" href="http://www.foxyform.com/">foxyform</a>
+                        <script type="text/javascript">
+                            (function(d, t) {
+                                var g = d.createElement(t),
+                                    s = d.getElementsByTagName(t)[0];
+                                g.src = "http://www.foxyform.com/js.php?id=931696&sec_hash=7dd5a7b4945&width=350px";
+                                s.parentNode.insertBefore(g, s);
+                            }(document, "script"));
+                        </script>
+                    </center>
+                    <!--/.row-->
+                </div>
+                <!--/.col-md-9-->
+            </div>
+            <!--/.container-->
+        </section>
+
+    </div>
+    <!-- #content -->
+    <footer id="footer" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <section class="pixova-footer-widget col-md-4 clearfix">
+                    <div id="text-2" class="widget widget_text">
+                        <h3 class="widget-title"><span>About</span></h3>
+                        <div class="textwidget">
+                            <p>&nbsp;</p>
+                            <p>GREATMOOR is founded by M. M. SAKIB ULLAH, an Electrical &amp; Electronic Engineer who is currently working as a professional Web Developer.</p>
+                        </div>
+                    </div>
+                </section>
+                <!--/.pixova-foter-widget.col-md-4.clearfix-->
+                <section class="pixova-footer-widget col-md-4 clearfix">
+                    <div id="text-3" class="widget widget_text">
+                        <h3 class="widget-title"><span>Quick nav</span></h3>
+                        <div class="textwidget">
+                            <ul id="menu-pixova-footer-menu" class="menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="#about">About us</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="#works">Sample Works</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!--/.pixova-foter-widget.col-md-4.clearfix-->
+                <section class="pixova-footer-widget col-md-4 clearfix"></section>
+                <!--/.pixova-foter-widget.col-md-4.clearfix-->
+            </div>
+            <!-- /.row-->
+            <div class="row">
+                <section class="pixova-footer-widget col-md-12 clearfix">
+                    <div id="pixova_lite_widget_social_media-2" class="widget pixova_lite_widget_social_media text-center">
+                        <div class="fixed">
+                            <ul style="padding-left: 10px;">
+                                <li><a title="Facebook" class="facebook-icon social-icon" href="https://www.facebook.com/greatmoor"><i class="fab fa-facebook fa-2x"></i></a></li>
+                                <li><a title="LinkedIn" class="linkedin-icon social-icon" href="https://www.linkedin.com/in/sakib-bd/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                                <li><a title="Instagram" class="instagram-icon social-icon" href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                                <li><a title="GitHub" class="github-icon social-icon" href="https://github.com/greatmoor/greatmoor.github.io"><i class="fab fa-github-square fa-2x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!--/.pixova-foter-widget.col-md-12.clearfix-->
+            </div>
+            <!--/.row-->
+        </div>
+        <!-- /.container -->
+
+        <div class="fluid-container">
+            <div class="footer-copyright-container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <p class="footer-copyright">
+
+
+                                <span class="pixova-lite-footer-theme-copyright">
+										<span class="footer-heart-icon fa fa-heart"></span>
+                                </span>
+                                <!--/.pixova-lite-footer-theme-copyright-->
+                                <span class="pixova-lite-footer-text-copyright">
+										This Site is Created by <strong>Greatmoor</strong>© Copyright 2018. All Rights Reserved									</span>
+                                <!--/.pixova-lite-footer-text-copyright-->
+                            </p>
+                        </div>
+                        <!--/.text-center-->
+                    </div>
+                    <!--/col-lg-12-->
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.footer-copyright-container-->
+        </div>
+        <!--/.fluid-container-->
+    </footer>
+    <a href="#" class="pixova-top">Top</a>
+    <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scriptsaead.js?ver=5.0.3'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/pathLoadere7f3.js?ver=2.1.7'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/pace/pace.mind5f7.js?ver=2.0'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/preloader.min5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/bootstrap/bootstrap.min7984.js?ver=3.3.4'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/sticky/jquery.stickyd5f7.js?ver=2.0'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/owl-carousel/owl-carousel.min3ba1.js?ver=1.3.3'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/classie/classie8a54.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/simpleplaceholder/simplePlaceholder.min8a54.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/smoothscroll/smoothscroll.mine2dc.js?ver=0.9.9'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/viewport/viewport.min5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/parallax/parallax.mine7f0.js?ver=1.3.1'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/wow/wow.min4bf4.js?ver=1.0.3'></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/easypiechart/easypiechart.mine7f3.js?ver=2.1.7'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var pixova_lite_localization = {
+            "parallax_enabled": "header_effect_enabled",
+            "animations_enabled": "animations_enabled"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/scripts.min1e9d.js?ver=1.41.1'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var pixova_lite_localization = {
+            "animations_enabled": "animations_enabled"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/tf_numbers.js"></script>
+    <script type='text/javascript' src='wp-content/themes/pixova-lite/layout/js/plugins.min1e9d.js?ver=1.41.1'></script>
+    <script type='text/javascript' src='wp-includes/js/wp-embed.min37cb.js?ver=4.9.7'></script>
 </body>
 
 </html>
